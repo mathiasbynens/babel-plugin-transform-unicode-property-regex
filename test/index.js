@@ -1,7 +1,7 @@
 import path from 'path';
 import fs from 'fs';
 import assert from 'assert';
-import { transform, transformFileSync } from 'babel-core';
+import { transform, transformFileSync } from '@babel/core';
 import plugin from '../src';
 
 describe('babel-plugin-transform-unicode-property-regex', () => {
